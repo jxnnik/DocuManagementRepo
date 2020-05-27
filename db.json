@@ -1,0 +1,158 @@
+{
+  "id": 1,
+  "name": "Seminararbeit Geschichte",
+  "description": "Der Wilde Westen",
+  "comments": [
+    {
+      "id": 1,
+      "content": "Der Wilde Westen war im 19. Jahrhundert!",
+      "restricted": true,
+      "wasEdited": false,
+      "creationTime": {
+        "day": 1,
+        "month": 5,
+        "year": 2020,
+        "hour": 12,
+        "minute": 30
+      },
+      "author": {
+        "id": 1,
+        "username": "LuckyLuke",
+        "email": "luckyluke@web.de",
+        "roles": [
+          "ROLE_ADMIN"
+        ],
+        "userInfo": {
+          "id": 1,
+          "forename": "Lucky",
+          "surname": "Luke",
+          "studentNumber": 1234567
+        }
+      }
+    },
+    {
+      "id": 2,
+      "content": "Cowboys sind ja so doof!",
+      "restricted": false,
+      "wasEdited": true,
+      "creationTime": {
+        "day": 3,
+        "month": 5,
+        "year": 2020,
+        "hour": 15,
+        "minute": 49
+      },
+      "author": {
+        "id": 3,
+        "username": "JackDalton",
+        "email": "jackdalton@web.de",
+        "roles": [
+          "ROLE_USER"
+        ],
+        "userInfo": {
+          "id": 3,
+          "forename": "Jack",
+          "surname": "Dalton",
+          "studentNumber": 7654312
+        }
+      }
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "name": "Abgabe Seminararbeit",
+      "description": "Abgabe von der Seminararbeit 'Der Wilde Westen'",
+      "startDate": {
+        "day": 1,
+        "month": 5,
+        "year": 2020,
+        "hour": null,
+        "minute": null
+      },
+      "endDate": {
+        "day": 6,
+        "month": 6,
+        "year": 2020,
+        "hour": null,
+        "minute": null
+      },
+      "type": "DEADLINE"
+    },
+    {
+      "id": 2,
+      "name": "Nachbesprechung Seminararbeit",
+      "description": "Abgabe von der Seminararbeit 'Der Wilde Westen'",
+      "startDate": {
+        "day": 1,
+        "month": 7,
+        "year": 2020,
+        "hour": 15,
+        "minute": 30
+      },
+      "endDate": {
+        "day": 1,
+        "month": 7,
+        "year": 2020,
+        "hour": 16,
+        "minute": 30
+      },
+      "type": "MEETING"
+    }
+  ],
+  "handlers": [
+    {
+      "id": 1,
+      "username": "LuckyLuke",
+      "email": "luckyluke@web.de",
+      "roles": [
+        "ROLE_ADMIN"
+      ],
+      "userInfo": {
+        "id": 1,
+        "forename": "Lucky",
+        "surname": "Luke",
+        "studentNumber": 1234567
+      }
+    },
+    {
+      "id": 2,
+      "username": "JoeDalton",
+      "email": "joedalton@web.de",
+      "roles": [
+        "ROLE_USER"
+      ],
+      "userInfo": {
+        "id": 2,
+        "forename": "Joe",
+        "surname": "Dalton",
+        "studentNumber": 7654321
+      }
+    }
+  ],
+  "processors": [
+    {
+      "id": 2,
+      "username": "JoeDalton",
+      "email": "joedalton@web.de",
+      "roles": [
+        "ROLE_USER"
+      ],
+      "userInfo": {
+        "id": 2,
+        "forename": "Joe",
+        "surname": "Dalton",
+        "studentNumber": 7654321
+      }
+    },
+    {
+      "id": 3,
+      "username": "JackDalton",
+      "email": "jackdalton@web.de",
+      "roles": [
+        "ROLE_USER"
+      ]
+    }
+  ],
+  "type": "SEMINARARBEIT"
+}
